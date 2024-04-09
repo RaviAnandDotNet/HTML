@@ -1,0 +1,86 @@
+
+body{
+    background: url("");
+    background-color: antiquewhite;
+    padding-bottom: 100px;
+}
+.navbar{
+    background: url("");
+}
+.card{
+    font-size: 10px;
+}
+.card-body{
+    position: relative;
+    overflow: hidden;
+    margin-top: -80px;
+    cursor: pointer;
+}
+.card-body:hover .categoryimg{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.card-footer{
+    line-height: 3px;
+}
+.categoryimg{
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+}
+@media screen and (min-width:320px) {
+    body {
+      background-color: rgb(145, 196, 145);
+      
+    }
+    .userspan{
+        display: none;
+    }
+    .logo{
+        width: 200px;
+    }
+    .carouselimg{
+        height: 200px;
+        opacity: 0.9;
+    }
+    .card{
+        width: 90%;
+    }
+  }
+  @media only screen and (min-width: 720px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    .userspan{
+        display: inline;
+    }
+    .logo{
+        width: 200px;
+    }
+    .carouselimg{
+        height: 350px;
+        opacity: 0.9;
+    }
+    .container{
+        max-width: 100vw;
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    .userspan{
+        display: inline;
+    }
+    .logo{
+        width: 200px;
+    }
+    .carouselimg{
+        height: 450px;
+        opacity: 0.9;
+    }
+    .container{
+        max-width: 100vw;
+    }
+  }
+  
