@@ -1,35 +1,9 @@
-.contact_section {
-    position: relative;
+.container-bg {
+  background-color: #fff9f9;
+  box-shadow: 0px 0px 8px 0px #c9d9ff;
 }
-
-.layout_padding {
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-
-@media (min-width: 1200px){
-.container {
-    max-width: 1170px;
-}
-}
-
-.px-0 {
-    padding-left: 0px !important;
-}
-.pr-0, .px-0 {
-    padding-right: 0 !important;
-}
-
-.contact_section .heading_container {
-    margin-bottom: 30px;
-}
-
-.heading_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+.sendbtn {
+  width: 100px;
+  border-radius: 50px;
+  font-size: 12px;
 }
