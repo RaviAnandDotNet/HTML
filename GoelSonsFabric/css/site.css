@@ -1,7 +1,7 @@
 
 body{
     background: url("");
-    background-color: #fff7ef!important;
+    background-color: #fffbf0!important;
     padding-bottom: 100px;
 }
 .navbar{
@@ -28,6 +28,54 @@ body{
     width: 100%;
     border-radius: 8px;
 }
+.top-header1{
+    background-color: rgb(255, 188, 88);
+}
+.logoimg{
+    border-image-repeat:stretch;
+    height: 60px;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+.top-icons{
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.fa-icon{
+    color: #5e5144;
+}
+.aboutus{
+    background-color: #f6e6d7;
+}
+.bottom-footer{
+    top:20vh;
+    position: relative;
+    margin-bottom: 0;
+}
+.aboutus-content-text{
+    font-size: 12px;
+}
+.hr{
+    height: 2px!important;
+    background-color: #312b25;
+    
+}
+.rightstext{
+    color:rgb(125, 105, 73);
+}
+.bottom1{
+    height: 30px;
+    background-color: rgb(255, 188, 88);
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    top:25vh;
+}
+
 @media screen and (min-width:320px) {
     body {
       background-color: rgb(145, 196, 145);

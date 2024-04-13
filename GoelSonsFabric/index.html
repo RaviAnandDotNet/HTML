@@ -13,30 +13,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top bg-light text-dark" aria-label="Tenth navbar example">
+    <div class="position-relative top-header1 d-flex justify-content-between">
+        <div class="px-3">
+            <a href="/views/login.html" class="fa-icon" title="Login"><i class="fa fa-user"></i><span
+                    class="mx-2">sign-in</span></a>
+        </div>
+        <div class="px-3">
+            <span>We are shipping in India</span>
+        </div>
+        <div class="px-3">
+            <i class="fa fa-bell mx-2"></i>
+            <i class="fa fa-cart-shopping mx-2"></i>
+        </div>
+    </div>
+    <div class="position-relative top-header2">
+        <div class="">
+            <div class="d-flex justify-content-center mt-2">
+                <img src="/image/logo.png" class="logoimg">
+            </div>
+            <div class="d-flex justify-content-center mb-4"><b>Geol Sons & Fabric</b></div>
+        </div>
+    </div>
+    <nav class="position-sticky navbar navbar-expand-sm bg-light text-dark" aria-label="Tenth navbar example">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
                 aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <span class="row mx-5 logo"><img src="/image/goelsonslogo.png" class="logoimg"></span>
-            <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample08">
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarsExample08">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active mx-1" aria-current="page" href="./index.html">HOME</a>
+                        <a class="nav-link active mx-3" aria-current="page" href="./index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-1" href="#">FABRICS</a>
+                        <a class="nav-link mx-3" href="#">FABRICS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-1" href="#">ABOUT US</a>
+                        <a class="nav-link mx-3" href="#">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-1" href="#">CONTACT US</a>
+                        <a class="nav-link mx-3" href="#">CONTACT US</a>
                     </li>
                 </ul>
-                <a href="/views/login.html" title="Login"><span class="mx-2 userspan"><i
-                            class="fa fa-user"></i></span></a>
+
             </div>
         </div>
     </nav>
@@ -201,7 +221,7 @@
                                                     id="id_message"></textarea>
                                             </div>
                                             <div class="d-flex my-2">
-                                                <button class="btn btn-sm btn-primary sendbtn"
+                                                <button class="btn btn-sm sendbtn"
                                                     type="submit">SEND</button>
                                             </div>
 
@@ -214,11 +234,59 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
+        <section class="aboutus p-4 bottom-footer">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-12 p-1 aboutus-content-text">
+                    <b>Goel Sons & Fabric</b>
+                    <div class="col-12">
+                        <hr>
+                        <div><a href="#">Home</a></div>
+                        <div><a href="#">Get In Touch</a></div>
+                        <div><a href="#">Privacy Policy</a></div>
+                        <div><a href="#">Terms & Conditions Policy</a></div>
+                        <div><a href="#">Refund & Replacement Policy</a></div>
+                        <div><a href="#">Shipping & Payment Policy</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-1 aboutus-content-text">
+                    <b>ABOUT US</b>
+                    <div class="col-12">
+                        <hr>
+                        Goel Sons, since 1985, excels in crafting diverse, superior-quality Greige/RFD fabrics with
+                        4000+ customizable designs, ensuring durability and competitive prices. Under Mr. Mahesh Goel's
+                        guidance, our commitment lies in fostering long-term relationships by delivering top-notch goods
+                        and services for a positive customer experience.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-1 aboutus-content-text">
+                    <b>OUR PROMISE</b>
+                    <div class="col-12">
+                        <hr>
+                        At Geol Sons & Fabrics, we sell quality products and we ensure the products we sold are value
+                        for money. We have set ourselves bringing best products that is trending in the market.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-1 aboutus-content-text">
+                    <b>CONTACT US</b>
+                    <div class="col-12">
+                        <hr>
+                        25, Jain Market, Shanti Mohalla, Old Seelampur, Gandhi Nagar, Delhi-110031.
+                        +91 9910472379
+                        maheshgoelsons@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-middle mt-5 aboutus-content-text">
+                <div class="col-lg-4 col-md-3 col-sm-12 hr p-0 m-0 mt-2"></div>
+                <div class="col-lg-2 col-md-2 col-sm-12 p-0 m-0 text-center rightstext"><b>© 2024 All Rights Reserved By GOEL SONS</b></div>
+                <div class="col-lg-4 col-md-3 col-sm-12 hr p-0 m-0 mt-2"></div>
+            </div>
+            
+        </section>
+        <section>
+            <div class="bottom1">
+            </div>
+        </section>
     </div>
 </body>
 <script src="/js/bootstrap.bundle.min.js">

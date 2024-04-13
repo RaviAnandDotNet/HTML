@@ -1,9 +1,15 @@
 .container-bg {
   background-color: #fff9f9;
-  box-shadow: 0px 0px 8px 0px #c9d9ff;
+  box-shadow: 0px 0px 3px 0px #f8bab8;
 }
 .sendbtn {
   width: 100px;
+  background-color: rgb(214, 179, 133);
+  border: 1px solid rgb(176, 145, 101) ;
   border-radius: 50px;
   font-size: 12px;
+}
+.sendbtn:hover{
+  background-color: rgb(145, 122, 74);
+  color: white;
 }
