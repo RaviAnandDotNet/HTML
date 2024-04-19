@@ -6,5 +6,7 @@
 .productcard .card-footer{
     height: 100px;
 }
-.productcard img{
+#pagination .active .current{
+    color: black;
+    background-color: rgb(255, 188, 88);
 }
