@@ -28,20 +28,20 @@ body {
   border-bottom-left-radius: 5px;
 }
 
-.card {
+.pcard {
   font-size: 10px;
 }
-.card-body {
+.pcard-body {
   position: relative;
   margin-top: -70px;
   cursor: pointer;
 }
-.card-body:hover img {
+.pcard-body:hover img {
   overflow: hidden;
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
 }
-.card-footer {
+.pcard-footer {
   line-height: 3px;
   background-color: rgb(214, 179, 133);
 }
@@ -175,7 +175,7 @@ a {
 .carousel-inner {
   padding: 1em;
 }
-.card {
+.pcard {
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
@@ -209,20 +209,20 @@ a {
   .logo {
     width: 200px;
   }
-  .card {
+  .pcard {
     font-size: 10px;
   }
-  .card-body {
+  .pcard-body {
     position: relative;
     margin-top: -70px;
     cursor: pointer;
   }
-  .card-body:hover img {
+  .pcard-body:hover img {
     overflow: hidden;
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
   }
-  .card-footer {
+  .pcard-footer {
     line-height: 3px;
     background-color: rgb(214, 179, 133);
   }
