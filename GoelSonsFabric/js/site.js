@@ -1,6 +1,11 @@
-$('.nav-fabrics').hover(function(){
-    $('.dropdown-menu').toggleClass('show')
+$(document).ready(function(){
+  
 })
+
+
+// $('.nav-fabrics').hover(function(){
+//     $('.dropdown-menu').toggleClass('show')
+// })
 $('.viscose-jacquard').hover(function(){
     $(".nav-fabric-image").toggleClass("d-none")
     $(".nav-fabric-image").find("img").attr("src","/image/navimage/jpeg-optimizer_image.png")
@@ -107,5 +112,5 @@ var multipleCardCarousel1 = document.querySelector(
     $(multipleCardCarousel2).addClass("slide");
   }
 
-  // mobile
+
   

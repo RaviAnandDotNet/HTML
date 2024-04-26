@@ -52,7 +52,7 @@
                     </li>
 
                     <li class="nav-item mx-3 nav-fabrics">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                        <a class="nav-link" href="/views/fabrics.html" id="navbarDropdown" role="button" aria-expanded="false">
                             FABRICS
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -145,7 +145,56 @@
             </div>
         </div>
     </section>
-
+    <section class="aboutus p-4 bottom-footer" id="footer-section">
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-12 p-1 text-12">
+            <b>Goel Sons & Fabric</b>
+            <div class="col-12">
+              <hr>
+              <div><a href="#">Home</a></div>
+              <div><a href="#">Get In Touch</a></div>
+              <div><a href="#">Privacy Policy</a></div>
+              <div><a href="#">Terms & Conditions Policy</a></div>
+              <div><a href="#">Refund & Replacement Policy</a></div>
+              <div><a href="#">Shipping & Payment Policy</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 p-1 text-12">
+            <b>ABOUT US</b>
+            <div class="col-12">
+              <hr>
+              Goel Sons, since 1985, excels in crafting diverse, superior-quality Greige/RFD fabrics with
+              4000+ customizable designs, ensuring durability and competitive prices. Under Mr. Mahesh Goel's
+              guidance, our commitment lies in fostering long-term relationships by delivering top-notch goods
+              and services for a positive customer experience.
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 p-1 text-12">
+            <b>OUR PROMISE</b>
+            <div class="col-12">
+              <hr>
+              At Geol Sons & Fabrics, we sell quality products and we ensure the products we sold are value
+              for money. We have set ourselves bringing best products that is trending in the market.
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 p-1 text-12">
+            <b>CONTACT US</b>
+            <div class="col-12">
+              <hr>
+              25, Jain Market, Shanti Mohalla, Old Seelampur, Gandhi Nagar, Delhi-110031.
+              +91 9910472379
+              maheshgoelsons@gmail.com
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center align-middle mt-5 text-12">
+          <div class="col-lg-4 col-md-3 col-sm-12 hr p-0 m-0 mt-2"></div>
+          <div class="col-lg-2 col-md-2 col-sm-12 p-0 m-0 text-center rightstext"><b>© 2024 All Rights Reserved By
+              GOEL SONS</b></div>
+          <div class="col-lg-4 col-md-3 col-sm-12 hr p-0 m-0 mt-2"></div>
+        </div>
+    
+      </section>
 
 
       <div>
@@ -161,23 +210,13 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.min.js"></script>
 
 <script src="/js/site.js"></script>
-<script>
-    $(".wrapper .item").slice(1).hide();
-    $('#pagination').pagination({
 
-        // Total number of items present 
-        // in wrapper class 
-        items: 5,
+    <script>
+        $('.fcard dropdown-item').on('click', function () {
+            window.location.href="/views/products.html"
+        })
+    </script>
 
-        // Items allowed on a single page 
-        itemsOnPage: 1,
-        onPageClick: function (noofele) {
-            $(".wrapper .item").hide()
-                .slice(1 * (noofele - 1),
-                    1 + 1 * (noofele - 1)).show();
-        }
-    }); 
-</script>
 
 </body>
 
