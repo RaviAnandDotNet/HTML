@@ -135,11 +135,10 @@ a {
       padding-bottom: 100px;
       margin-left: 0;
       margin-right: 0;
-    
   }
   .navbar {
     position: sticky;
-    top: 18px;
+    top: 0px;
     z-index: 5;
   }
   .userspan {
