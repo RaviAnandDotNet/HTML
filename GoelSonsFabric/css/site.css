@@ -187,7 +187,12 @@ a {
     opacity: 0.9;
     color: rgb(0, 0, 0);
   }
-  
+  .desk-carousel{
+    display: none!important;
+  }
+  .mobile-carousel{
+    display: block!important;
+  }
 }
 @media only screen and (min-width: 720px) {
   body {
@@ -217,6 +222,12 @@ a {
   .logo {
     width: 200px;
   }
+  .desk-carousel{
+    display: block!important;
+  }
+  .mobile-carousel{
+    display: none!important;
+  }
 }
 
 @media only screen and (min-width: 900px)
@@ -224,5 +235,10 @@ a {
   .coretext{
     margin-top:10.5rem!important;
   }
- 
+  .desk-carousel{
+    display: block!important;
+  }
+  .mobile-carousel{
+    display: none!important;
+  }
 }
