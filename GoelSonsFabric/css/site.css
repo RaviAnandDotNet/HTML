@@ -218,3 +218,11 @@ a {
     width: 200px;
   }
 }
+
+@media only screen and (min-width: 900px)
+{
+  .coretext{
+    margin-top:10.5rem!important;
+  }
+ 
+}
